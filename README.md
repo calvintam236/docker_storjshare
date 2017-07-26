@@ -22,7 +22,7 @@ Run in background:
 $ docker run -v storjshare:/storjshare/ -d --name YOUR_CONTAINER_NAME -p YOUR_PORT_1-YOUR_PORT_3:YOUR_PORT_1-YOUR_PORT_3 calvintam236/storjshare start -d --config /storjshare/YOUR_CONTAINER_NAME.json
 ```
 
-Get storjshare options with:
+Get `storjshare` options with:
 
 ```console
 $ docker run --rm calvintam236/storjshare --help
