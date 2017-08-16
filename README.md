@@ -13,7 +13,7 @@ $ docker volume create --name storjshare
 Run to build config:
 
 ```console
-$ docker run --rm -v storjshare:/storjshare calvintam236/storjshare create --storj YOUR_WALLET_ADDRESS --key YOUR_PRIVATE_KEY --storage /storjshare/YOUR_CONTAINER_NAME/ --size YOUR_SIZE --rpcport YOUR_PORT_1 --maxtunnels 2 --tunnelportmin YOUR_PORT_2 --tunnelportmax YOUR_PORT_3 --logdir /storjshare/log --noedit -o /storjshare/farmer.config.json
+$ docker run --rm -v storjshare:/storjshare calvintam236/storjshare create --storj YOUR_WALLET_ADDRESS --key YOUR_PRIVATE_KEY --storage /storjshare/storage --size YOUR_SIZE --rpcport YOUR_PORT_1 --maxtunnels 2 --tunnelportmin YOUR_PORT_2 --tunnelportmax YOUR_PORT_3 --logdir /storjshare/log --noedit -o /storjshare/farmer.config.json
 ```
 
 Run in background:
