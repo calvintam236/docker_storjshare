@@ -5,3 +5,5 @@ LABEL description="StorjShare in Docker. Supports HDD mining."
 
 RUN npm install --global storjshare-daemon \
     && npm cache clean
+
+ENTRYPOINT ["storjshare"]
