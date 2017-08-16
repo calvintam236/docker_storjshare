@@ -7,4 +7,3 @@ RUN npm install --global storjshare-daemon \
     && npm cache clean
 
 CMD ["storjshare", "daemon", "--foreground"]
-ENTRYPOINT ["storjshare"]

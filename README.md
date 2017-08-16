@@ -19,7 +19,13 @@ $ docker run --rm -v storjshare:/storjshare calvintam236/storjshare create --sto
 Run in background:
 
 ```console
-$ docker run -v storjshare:/storjshare -d --name YOUR_CONTAINER_NAME -p YOUR_PORT_1-YOUR_PORT_3:YOUR_PORT_1-YOUR_PORT_3 calvintam236/storjshare start /storjshare/farmer.config.json
+$ docker run -v storjshare:/storjshare -d --name YOUR_CONTAINER_NAME -p YOUR_PORT_1-YOUR_PORT_3:YOUR_PORT_1-YOUR_PORT_3 calvintam236/storjshare
+```
+
+Attach to execute:
+
+```console
+$ docker exec -d YOUR_CONTAINER_NAME start /storjshare/farmer.config.json
 ```
 
 Get `storjshare` options with:
