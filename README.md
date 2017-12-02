@@ -25,7 +25,7 @@ $ docker run -v storjshare:/storjshare -d --name YOUR_CONTAINER_NAME -p YOUR_POR
 Get `storjshare` options with:
 
 ```console
-$ docker run --rm calvintam236/storjshare --help
+$ docker run --rm calvintam236/storjshare
 ```
 
 Fetch logs of a container:
